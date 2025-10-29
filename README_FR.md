@@ -125,7 +125,7 @@ https://palks.gumroad.com/
 
 ---
 
-## Crédits et licences
+## Crédits et licence
 
 Ce pack est une création originale de **Palks Studio**.
 Toute revente, diffusion ou modification publique sans autorisation est interdite.
