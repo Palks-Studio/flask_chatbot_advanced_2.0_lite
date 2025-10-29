@@ -1,1 +1,41 @@
-
+```
+Flask_Chatbot_Advanced_2.0/
+│
+├── app.py                      ← Flask entry point (server + API routes)
+├── main.py                     ← Bot logic: responses (OpenAI + local JSON)
+├── storage.py                  ← SQLite management (save & read history)
+├── passenger_wsgi.py           ← For hosting on o2switch / Passenger
+├── requirements.txt            ← Python dependencies (Flask, CORS, SQLite, OpenAI...)
+│
+├── .env.example                ← Template for the user (“fill in your API key here”)
+# ⚠ The .env file is NOT included (user must create it to use OpenAI)
+# ⚠ The data.db file is not provided (created automatically on first run)
+│
+├── Dockerfile                  ← Dockerfile ← (optional) Docker container
+├── docker-compose.yml          ← docker-compose.yml ← (optional) Simplified Docker launch
+│
+├── LICENSE.txt                 ← License / usage terms
+├── install.bat                 ← Windows installation script (pip install + launch)
+├── install.sh                  ← Linux/Mac script (chmod + pip install)
+│
+├── sample_data/
+│   └── sample_data.json        ← Local content database (FAQ, simple answers)
+│
+├── templates/
+│   ├── index.html              ← User interface (chatbot frontend)
+│   └── widget.html             ← New floating interface
+│
+│── static/
+│   └── widget.js               ← Script to open/close the floating widget
+│   └── widget.css              ← Style for the floating widget (button + mini-window)
+│
+├── logs/
+│   └── errors.log              ← Automatically created on error
+│
+├── docs/
+│   └── INSTALL.md              ← Complete user guide
+│
+├── CUSTOMISATION.md            ← Bot customization (design, responses, OpenAI…)
+│
+└── README.md                   ← Main project documentation
+```
