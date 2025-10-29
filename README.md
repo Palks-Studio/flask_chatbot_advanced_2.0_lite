@@ -3,11 +3,13 @@
 </p>
 
 <p align="center">
-  🇬🇧 English | [🇫🇷 Français](README_FR.md)
+  [🇬🇧 English](README.md) | [🇫🇷 Français](README_FR.md)
 </p>
 
 <p align="center">
-  👉 [**View all packs on Gumroad**](https://palks.gumroad.com/)
+  <a href="https://palks.gumroad.com/" target="_blank" style="background-color:#0a5645; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
+    View all packs on Gumroad
+  </a>
 </p>
 
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
