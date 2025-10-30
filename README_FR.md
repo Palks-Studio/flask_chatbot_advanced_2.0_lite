@@ -123,7 +123,7 @@ Il ne contient pas l’intégralité du code source exécutable, des prompts, ni
 La version complète est disponible via la licence commerciale.
 
 **Version complète du projet disponible ici**
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio  
 - Gumroad: https://palks.gumroad.com/
 
@@ -143,7 +143,7 @@ Simplicité, clarté, efficacité.
 - Gumroad: https://palks.gumroad.com/  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
