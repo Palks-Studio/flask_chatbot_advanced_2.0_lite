@@ -123,9 +123,9 @@ Il ne contient pas l’intégralité du code source exécutable, des prompts, ni
 La version complète est disponible via la licence commerciale.
 
 **Version complète du projet disponible ici**
-- Itch: http://palks-studio.itch.io/  
-- Ko-Fi: https://ko-fi.com/palksstudio  
-- Gumroad: https://palks.gumroad.com/
+- Itch : http://palks-studio.itch.io  
+- Ko-Fi : https://ko-fi.com/palksstudio  
+- Gumroad : https://palks.gumroad.com
 
 ---
 
@@ -139,12 +139,12 @@ Usage personnel et professionnel autorisé.
 Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
 Simplicité, clarté, efficacité.
 
-- GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com/  
-- Discord: https://discord.gg/kzrSyThyZ7  
-- Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io/  
-- Ko-Fi: https://ko-fi.com/palksstudio
+- GitHub : https://github.com/Palks-Studio  
+- Gumroad : https://palks.gumroad.com  
+- Discord : https://discord.gg/kzrSyThyZ7  
+- Twitter (X) : https://x.com/PalksStudio  
+- Itch : http://palks-studio.itch.io  
+- Ko-Fi : https://ko-fi.com/palksstudio
 
 ---
 
