@@ -4,18 +4,9 @@
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![Éditeur](https://img.shields.io/badge/Éditeur-VS%20Code-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
-![Plateforme](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Licence](https://img.shields.io/badge/Licence-LICENCE.txt-lightgreen.svg)
 
-<p align="center">
-  <a href="https://palks.gumroad.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
-  </a>
-</p>
-
-# Flask Chatbot – Template Professionnel Avance (Version 2.0)
+# Flask Chatbot – Template Professionnel Avancé (Version 2.0)
 
 Un projet complet pour créer ton propre **assistant conversationnel avec Flask**, prêt à être utilisé :
 
@@ -122,10 +113,26 @@ Ce dépôt GitHub présente la structure et les fonctionnalités du projet.
 Il ne contient pas l’intégralité du code source exécutable, des prompts, ni des fichiers sensibles (`.env`, `data.db`, mémoire IA...).
 La version complète est disponible via la licence commerciale.
 
-**Version complète du projet disponible ici**
-- Itch.io : http://palks-studio.itch.io  
-- Ko-Fi : https://ko-fi.com/palksstudio  
+**Version complète du projet disponible ici** 
 - Gumroad : https://palks.gumroad.com
+- Itch.io : http://palks-studio.itch.io  
+- Ko-fi : https://ko-fi.com/palksstudio 
+
+---
+
+<p align="center">
+  <a href="https://palks.gumroad.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
+  </a>
+  &nbsp;&nbsp;
+  <a href="http://palks-studio.itch.io" target="_blank">
+    <img src="https://img.shields.io/badge/Disponible%20sur-Itch.io-blue?style=for-the-badge" alt="Disponible sur Itch.io">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/palksstudio" target="_blank">
+    <img src="https://img.shields.io/badge/Acheter%20sur-Ko–fi-ff5f5f?style=for-the-badge" alt="Acheter sur Ko-fi">
+  </a>
+</p>
 
 ---
 
@@ -144,7 +151,7 @@ Simplicité, clarté, efficacité.
 - Discord : https://discord.gg/kzrSyThyZ7  
 - Twitter (X) : https://x.com/PalksStudio  
 - Itch.io : http://palks-studio.itch.io  
-- Ko-Fi : https://ko-fi.com/palksstudio
+- Ko-fi : https://ko-fi.com/palksstudio
 
 ---
 
