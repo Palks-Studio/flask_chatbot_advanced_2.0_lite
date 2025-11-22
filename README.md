@@ -117,9 +117,9 @@ It does not include the full executable source code, prompts, or sensitive files
 The complete version is available under a commercial license.
 
 **Full version of the project available here**
-- Gumroad: https://palks.gumroad.com  
-- Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio
+- [Gumroad](https://palks.gumroad.com)  
+- [Itch.io](https://palks-studio.itch.io)  
+- [Ko-fi](https://ko-fi.com/palksstudio)
 
 ---
 
