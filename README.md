@@ -29,11 +29,11 @@ Flask_Chatbot_Advanced_2.0/ (Version lite)
 ├── .env.example                   ← Example of API configuration
 │
 ├── public_version/
-│   ├── example_structure.txt      ← Full project structure overview (no code)
+│   └── example_structure.txt      ← Full project structure overview (no code)
 │
 └── docs/
-    ├── images/
-    │   └── Palks_Studio.png       ← Palks Studio logo
+    └── images/
+        └── Palks_Studio.png       ← Palks Studio logo
 ```
 
 
@@ -44,7 +44,7 @@ Flask_Chatbot_Advanced_2.0/ (Version lite)
 This GitHub repository is only a partial preview of the project.
 The `README.md` file represents only a small portion of the full documentation.
 
-The commercial version includes:
+The commercial version includes:  
 
 - the complete source code (Python, HTML, JSON, scripts)  
 - all documentation (INSTALL.md, TECHNICAL_README.md, examples, prompts, advanced customization…)  
@@ -119,9 +119,7 @@ The complete version is available under a commercial license.
 **Full version of the project available here**
 - [Gumroad](https://palks.gumroad.com)  
 - [Itch.io](https://palks-studio.itch.io)  
-- [Ko-fi](https://ko-fi.com/palksstudio)
-
----
+- [Ko-fi](https://ko-fi.com/palksstudio)  
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
