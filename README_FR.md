@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="600">
 </p>
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
@@ -100,7 +100,7 @@ Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur
   - le message d’erreur  
   - la trace complète (`traceback`) pour faciliter le débogage  
 
-Ce système fonctionne aussi bien :
+Ce système fonctionne aussi bien :  
 
 - en mode local  
 - avec ou sans OpenAI  
@@ -113,7 +113,7 @@ Ce dépôt GitHub présente la structure et les fonctionnalités du projet.
 Il ne contient pas l’intégralité du code source exécutable, des prompts, ni des fichiers sensibles (`.env`, `data.db`, mémoire IA...).
 La version complète est disponible via la licence commerciale.
 
-**Version complète du projet disponible ici**
+**Version complète du projet disponible ici**  
 - Itch.io : http://palks-studio.itch.io  
 - Ko-fi : https://ko-fi.com/palksstudio  
 - Gumroad : https://palks.gumroad.com  
@@ -141,8 +141,7 @@ Toute revente, redistribution ou modification publique sans autorisation préala
 L’usage personnel et professionnel est autorisé.
 
 **Palks Studio**
-Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
-Simplicité, clarté, efficacité.
+Créateur indépendant d’outils digitaux utiles et autonomes.
 
 - GitHub : https://github.com/Palks-Studio  
 - Gumroad : https://palks.gumroad.com  
