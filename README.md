@@ -8,7 +8,7 @@
 
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
 
-A complete project to create your own **conversational assistant with Flask**, ready to use:
+A complete project to create your own **conversational assistant with Flask**, ready to use:  
 
 - **locally (localhost)**  
 - **on shared hosting like o2switch (Passenger / cPanel)**
