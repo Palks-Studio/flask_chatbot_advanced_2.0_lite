@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="600">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
 </p>
 
 > 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
 
-![License](https://img.shields.io/badge/License-LICENSE.txt-lightgreen.svg)
+![License](https://img.shields.io/badge/License-LICENCE.txt-lightgreen.svg)
 
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
 
@@ -23,7 +23,7 @@ No external database, no hidden dependencies. You can use it as-is, modify it, o
 Flask_Chatbot_Advanced_2.0/ (Version lite)
 │
 ├── README_EN.md                   ← Main documentation (public)
-├── LICENSE.txt                    ← Proprietary license (Palks Studio)
+├── LICENSE_EN.md                  ← Proprietary license (Palks Studio)
 ├── CUSTOMISATION.md               ← Customization guide and explanations
 ├── requirements.txt               ← Main Python dependencies
 ├── .env.example                   ← Example of API configuration
@@ -39,9 +39,8 @@ Flask_Chatbot_Advanced_2.0/ (Version lite)
 
 *This directory structure is provided for informational purposes only.*
 
-**⚠ Important**
-
-This GitHub repository is only a partial preview of the project.
+**⚠ Important**  
+This GitHub repository is only a partial preview of the project.  
 The `README.md` file represents only a small portion of the full documentation.
 
 The commercial version includes:  
@@ -68,7 +67,7 @@ The full source code is available exclusively under the **commercial licensed ve
 
 ## Automatically Generated Files
 
-When you run the chatbot for the first time, some files are automatically created:
+When you run the chatbot for the first time, some files are automatically created:  
 
 | File           | Purpose                                        |
 |----------------|------------------------------------------------|
@@ -97,11 +96,12 @@ No token usage occurs if no key is provided.
 The `logs/` folder is used to automatically record Flask server errors.  
 - The file `logs/errors.log` is created automatically if an error occurs.  
 - The `logs/` folder is generated if it does not exist (no need to create it manually).  
+
 - Each error entry contains:  
 
   - the date and time  
   - the error message  
-  - the full traceback for easier debugging  
+  - the full traceback for easier debugging
 
 This system works in:  
 
@@ -111,15 +111,15 @@ This system works in:
 
 ---
 
-**Note**
-This GitHub repository showcases the structure and features of the project.
-It does not include the full executable source code, prompts, or sensitive files (.env, data.db, AI memory, etc.).
+**Note**  
+This GitHub repository showcases the structure and features of the project.  
+It does not include the full executable source code, prompts, or sensitive files (.env, data.db, AI memory, etc.).  
 The complete version is available under a commercial license.
 
 **Full version of the project available here**  
 - Gumroad: https://palks.gumroad.com  
 - Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio  
+- Ko-fi: https://ko-fi.com/palksstudio
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -137,25 +137,9 @@ The complete version is available under a commercial license.
 
 ---
 
-## Credits & License
-
-This pack is an original creation by **Palks Studio**.
-Resale, redistribution or public modification without permission is prohibited.
-Personal and professional use is allowed.
-
-**Palks Studio**
-Independent creator of useful, autonomous digital tools.
-
-- GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com  
-- Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio  
-- Twitter (X): https://x.com/Palks_Studio
-
----
-
 ## Signature
 
 **Palks Studio — Version 2.0 (Advanced Edition)**  
 Compatible with Python 3.12+ and Flask 3.0+
 
+© Palks Studio — see LICENSE_EN.md
