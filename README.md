@@ -32,8 +32,12 @@ Flask_Chatbot_Advanced_2.0/ (Version lite)
 │   └── example_structure.txt      ← Full project structure overview (no code)
 │
 └── docs/
-    └── images/
-        └── Palks_Studio.png       ← Palks Studio logo
+    ├── images/
+    │   └── Palks_Studio.png       ← Palks Studio logo
+    │ 
+    └── videos/
+        └── bot_2.0_local.mp4      ← Chatbot demo videos running locally,  
+                                   using session-based memory with no cross-browser conflicts.
 ```
 
 
@@ -86,8 +90,10 @@ When you run the chatbot for the first time, some files are automatically create
 | **Local JSON** (default) | Responses are generated from the `sample_data.json` file                 | No                   |
 | **OpenAI GPT** (optional)| Uses the ChatGPT API if an API key is provided in the `.env` file        | Yes                  |
 
-The mode is automatically selected based on whether the `OPENAI_API_KEY` variable is present in the `.env` file.
+The mode is automatically selected based on whether the `OPENAI_API_KEY` variable is present in the `.env` file.  
 No token usage occurs if no key is provided.
+
+Note: Strict Mode and enterprise-safe behavior are available only in the commercial full version.
 
 ---
 
