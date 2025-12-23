@@ -148,4 +148,4 @@ Compatible avec Python 3.12+ et Flask 3.0+
 
 - https://palks-studio.com
 
-© Palks Studio — voir LICENCE_FR.md
+© Palks Studio — voir LICENSE_EN.md
