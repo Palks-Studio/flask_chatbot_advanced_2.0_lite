@@ -4,7 +4,7 @@
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![License](https://img.shields.io/badge/Licence-LICENSE_EN.md-lightgreen.svg)
+![License](https://img.shields.io/badge/License-LICENSE_EN.md-lightgreen.svg)
 
 # Flask Chatbot – Template Professionnel Avance (Version 2.0)
 
