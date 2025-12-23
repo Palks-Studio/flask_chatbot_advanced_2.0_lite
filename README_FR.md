@@ -2,9 +2,9 @@
   <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
 </p>
 
-> 🇫🇷 Français | [🇬🇧 English](./README.md)
-
 ![License](https://img.shields.io/badge/License-LICENSE_EN.md-lightgreen.svg)
+
+> 🇫🇷 Français | [🇬🇧 English](./README.md)
 
 # Flask Chatbot – Template Professionnel Avance (Version 2.0)
 
