@@ -14,7 +14,7 @@ Flask_Chatbot_Advanced_2.0/
 ├── Dockerfile                  ← Dockerfile ← (optional) Docker container
 ├── docker-compose.yml          ← docker-compose.yml ← (optional) Simplified Docker launch
 │
-├── LICENSE_EN.md               ← License / usage terms
+├── LICENSE.md                  ← Terms of use and legal framework
 ├── install.bat                 ← Windows installation script (pip install + launch)
 ├── install.sh                  ← Linux/Mac script (chmod + pip install)
 │
@@ -39,3 +39,49 @@ Flask_Chatbot_Advanced_2.0/
 │
 └── README.md                   ← Main project documentation
 ```
+
+
+---
+
+```
+Flask_Chatbot_Avance_2.0/
+│
+├── app.py                      ← Point d’entrée Flask (serveur + routes API)
+├── main.py                     ← Logique du bot : réponses (OpenAI + JSON local)
+├── storage.py                  ← Gestion SQLite (sauvegarde & lecture de l’historique)
+├── passenger_wsgi.py           ← Pour hébergement sur o2switch / Passenger
+├── requirements.txt            ← Dépendances Python (Flask, CORS, SQLite, OpenAI...)
+│
+├── .env.example                ← Modèle pour l’utilisateur (“remplir sa clé API ici”)
+# ⚠ Le fichier `.env` n’est PAS inclus (l’utilisateur doit le créer s’il veut utiliser OpenAI)
+# ⚠ Le fichier `data.db` n’est pas fourni (il se crée automatiquement au premier lancement)
+│
+├── Dockerfile                  ← (optionnel) Conteneur Docker
+├── docker-compose.yml          ← (optionnel) Lancement Docker simplifié
+│
+├── LICENCE.md                  ← Conditions d’utilisation et cadre légal
+├── install.bat                 ← Script d’installation Windows (pip install + launch)
+├── install.sh                  ← Script Linux/Mac (chmod + pip install)
+│
+├── sample_data/
+│   └── sample_data.json        ← Base de contenus locale (FAQ, réponses simples)
+│
+├── templates/
+│   ├── index.html              ← Interface utilisateur (frontend du chatbot)
+│   └── widget.html             ← Nouvelle interface flottante
+│
+│── static/
+│   └── widget.js               ← Script d’ouverture/fermeture du widget flottant
+│   └── widget.css              ← Style dédié au widget flottant (bouton + mini-fenêtre)
+│
+├── logs/
+│   └── errors.log              ← Se crée automatiquement si erreur
+│
+├── docs/
+│   └── INSTALL.md              ← Guide utilisateur complet
+│
+├── CUSTOMISATION.md            ← Personnalisation du bot (design, réponses, OpenAI…)
+│
+└── README.md                   ← Documentation principale du projet
+```
+
