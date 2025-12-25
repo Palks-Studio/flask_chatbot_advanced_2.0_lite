@@ -4,7 +4,7 @@
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![License](https://img.shields.io/badge/License-LICENSE_EN.md-lightgreen.svg)
+![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 
 # Flask Chatbot – Template Professionnel Avance (Version 2.0)
 
@@ -23,7 +23,7 @@ Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, 
 Flask_Chatbot_Avance_2.0/ (Version Lite)
 │
 ├── README_FR.md                   ← Documentation principale (publique)
-├── LICENCE_FR.md                  ← Licence propriétaire (Palks Studio)
+├── LICENCE.md                     ← Conditions d’utilisation et cadre légal
 ├── CUSTOMISATION.md               ← Guide et explications de personnalisation
 ├── requirements.txt               ← Dépendances Python principales
 ├── .env.example                   ← Exemple de configuration de l’API
@@ -141,11 +141,8 @@ La version complète est disponible via la licence commerciale.
 
 ---
 
-## Signature
-
 **Palks Studio — Version 2.0 (Édition Avancée)**  
 Compatible avec Python 3.12+ et Flask 3.0+
 
+© Palks Studio — voir LICENSE.md  
 - https://palks-studio.com
-
-© Palks Studio — voir LICENSE_EN.md
