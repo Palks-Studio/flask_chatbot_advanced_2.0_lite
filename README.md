@@ -6,7 +6,7 @@
 
 ![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 
-# Flask Chatbot – Advanced Professional Template (Version 2.0)
+# Flask Chatbot Advanced — Version 2.0
 
 A complete project to create your own **conversational assistant with Flask**, ready to use:  
 
@@ -20,7 +20,7 @@ No external database, no hidden dependencies. You can use it as-is, modify it, o
 ## Structure (Public version)
 
 ```
-Flask_Chatbot_Advanced_2.0/ (Version lite)
+flask_chatbot_advanced_2.0_lite/
 │
 ├── README_EN.md                   ← Main documentation (public)
 ├── LICENSE.md                     ← Terms of use and legal framework
