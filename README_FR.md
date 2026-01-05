@@ -142,5 +142,5 @@ La version complète est disponible via la licence commerciale.
 **Palks Studio — Version 2.0 (Édition Avancée)**  
 Compatible avec Python 3.12+ et Flask 3.0+
 
-© Palks Studio — voir LISENCE.md  
+© Palks Studio — voir LICENSE.md  
 - https://palks-studio.com
