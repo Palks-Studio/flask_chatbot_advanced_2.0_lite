@@ -22,21 +22,21 @@ Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, 
 ```
 chatbot_flask_avance_2.0_lite/
 │
-├── README_FR.md                   ← Documentation principale (publique)
-├── LICENCE.md                     ← Conditions d’utilisation et cadre légal
-├── CUSTOMISATION.md               ← Guide et explications de personnalisation
-├── requirements.txt               ← Dépendances Python principales
-├── .env.example                   ← Exemple de configuration de l’API
+├── README_FR.md                   → Documentation principale (publique)
+├── LICENCE.md                     → Conditions d’utilisation et cadre légal
+├── CUSTOMISATION.md               → Guide et explications de personnalisation
+├── requirements.txt               → Dépendances Python principales
+├── .env.example                   → Exemple de configuration de l’API
 │
 ├── version_publique/
-│   └── exemple_structure.txt      ← Aperçu complet de l’arborescence du projet (sans code)
+│   └── exemple_structure.txt      → Aperçu complet de l’arborescence du projet (sans code)
 │
 └── docs/
     ├── images/
-    │   └── Palks_Studio.png       ← Logo Palks Studio
+    │   └── Palks_Studio.png       → Logo Palks Studio
     │ 
     └── videos/
-        └── bot_2.0_local_fr.mp4   ← Démonstration du chatbot exécuté en local,  
+        └── bot_2.0_local_fr.mp4   → Démonstration du chatbot exécuté en local,  
                                    avec mémoire de session et sans conflit entre navigateurs.
 ```
 
@@ -100,9 +100,7 @@ Note : le mode strict et le comportement sécurisé pour les environnements prof
 Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur Flask.  
 - Le fichier `logs/errors.log` est créé automatiquement si une erreur survient  
 - Le dossier `logs/` est généré s’il n’existe pas (pas besoin de le créer manuellement)  
-
 - Chaque erreur contient :  
-
   - la date et l’heure  
   - le message d’erreur  
   - la trace complète (`traceback`) pour faciliter le débogage
@@ -144,5 +142,5 @@ La version complète est disponible via la licence commerciale.
 **Palks Studio — Version 2.0 (Édition Avancée)**  
 Compatible avec Python 3.12+ et Flask 3.0+
 
-© Palks Studio — voir LICENCE.md  
+© Palks Studio — voir LISENCE.md  
 - https://palks-studio.com
