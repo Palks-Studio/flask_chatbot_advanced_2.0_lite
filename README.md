@@ -120,25 +120,6 @@ This GitHub repository showcases the structure and features of the project.
 It does not include the full executable source code, prompts, or sensitive files (.env, data.db, AI memory, etc.).  
 The complete version is available under a commercial license.
 
-**Full version of the project available here**  
-- Gumroad: https://palks.gumroad.com  
-- Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio
-
-<p align="center">
-  <a href="https://palks.gumroad.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Download%20on-Gumroad-orange?style=for-the-badge" alt="Download on Gumroad">
-  </a>
-  &nbsp;&nbsp;
-  <a href="http://palks-studio.itch.io" target="_blank">
-    <img src="https://img.shields.io/badge/Available%20on-Itch.io-blue?style=for-the-badge" alt="Available on Itch.io">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/palksstudio" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20on-Ko%E2%80%93fi-ff5f5f?style=for-the-badge" alt="Buy on Ko-fi">
-  </a>
-</p>
-
 ---
 
 **Palks Studio — Version 2.0 (Advanced Edition)**  
