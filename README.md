@@ -9,6 +9,8 @@
 
 ![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 ![OpenAI Optional](https://img.shields.io/badge/OpenAI-Optional-412991.svg)
+![Flask](https://img.shields.io/badge/Framework-Flask-000000?style=flat)
+![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 
 <p align="center">
   <a href="https://palks-studio.com">
