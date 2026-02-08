@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="docs/images/chatbot_fr_1.png"
+  <img src="docs/images/chatbot_en_1.png"
        alt="Chatbot conversation interface — example of a local Flask chatbot in use"
        width="1200">
 </p>
 
-> 🇫🇷 Français | [🇬🇧 English](./README.md)
+> 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
+
 
 ![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 ![OpenAI Optional](https://img.shields.io/badge/OpenAI-Optional-412991.svg)
@@ -15,149 +16,148 @@
   </a>
 </p>
 
-# Chatbot Flask Avance — Version 2.0
+# Advanced Flask Chatbot — Version 2.0
 
-> Ce dépôt constitue une présentation technique et une documentation du projet.  
-> Il ne contient pas de code source téléchargeable ni de fichiers de production.
+> This repository is a technical presentation and documentation repository.  
+> It does not contain downloadable source code or production files.
 
-Un projet complet pour créer ton propre **assistant conversationnel avec Flask**, prêt à être utilisé :  
+A complete project to build your own **Flask-based conversational assistant**, ready to run:  
 
-- **en local (localhost)**  
-- **sur un hébergement mutualisé comme o2switch (Passenger / cPanel)**
+- **locally (localhost)**  
+- **on shared hosting such as o2switch (Passenger / cPanel)**
 
-Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, le modifier ou l’intégrer dans un autre site ou une API.
-
----
-
-## Vue d’ensemble
-
-Ce projet propose un assistant conversationnel auto-hébergé, structuré et basé sur Flask,  
-conçu pour les développeurs et les équipes souhaitant garder un contrôle total sur  
-le comportement et le déploiement de leur chatbot.
-
-L’architecture privilégie :  
-
-- une base de connaissances locale (JSON) prioritaire  
-- un comportement prévisible en environnement professionnel  
-- une intégration IA optionnelle (OpenAI)  
-- un déploiement simple, sans dépendance à une plateforme SaaS externe
+No external database, no hidden dependencies. You can use it as-is, modify it, or integrate it into another website or API.
 
 ---
 
-## Structure du projet
+## Overview
+
+This project provides a self-hosted conversational assistant built with Flask,  
+designed for developers and teams who want full control over their chatbot’s behavior and deployment.
+
+The architecture prioritizes:  
+
+- a local knowledge base (JSON) as the primary source  
+- predictable behavior in professional environments  
+- optional AI integration (OpenAI)  
+- simple deployment without dependency on external SaaS platforms
+
+---
+
+## Project Structure
 
 ```
-chatbot_flask_avance_2.0/
+flask_chatbot_advanced_2.0/
 │
-├── app.py                      → Point d’entrée Flask (serveur + routes API)
-├── main.py                     → Logique du bot : réponses (OpenAI + JSON local)
-├── storage.py                  → Gestion SQLite (sauvegarde & lecture de l’historique)
+├── app.py                      → Flask entry point (server + API routes)
+├── main.py                     → Bot logic: responses (OpenAI + local JSON)
+├── storage.py                  → SQLite-based conversation history (save & read)
 │
-├── passenger_wsgi.py           → Pour hébergement sur o2switch / Passenger
-├── requirements.txt            → Dépendances Python (Flask, CORS, SQLite, OpenAI...)
-├── .env.example                → Modèle pour l’utilisateur (“remplir sa clé API ici”)
-│                                 # ⚠ Le fichier `.env` n’est PAS inclus (l’utilisateur doit le créer s’il veut utiliser OpenAI)
-│                                 # ⚠ Le fichier `data.db` n’est pas fourni (il se crée automatiquement au premier lancement)
+├── passenger_wsgi.py           → For hosting on o2switch / Passenger
+├── requirements.txt            → Python dependencies (Flask, CORS, SQLite, OpenAI...)
+├── .env.example                → Template for the user (“fill in your API key here”)
+│                                 # ⚠ The .env file is NOT included (user must create it to use OpenAI)
+│                                 # ⚠ The data.db file is not provided (created automatically on first run)
 │
-├── Dockerfile                  → (optionnel) Conteneur Docker
-├── docker-compose.yml          → (optionnel) Lancement Docker simplifié
+├── Dockerfile                  → Dockerfile → (optional) Docker container
+├── docker-compose.yml          → docker-compose.yml → (optional) Simplified Docker launch
 │
-├── LICENCE.md                  → Conditions d’utilisation et cadre légal
+├── LICENSE.md                  → Terms of use and legal framework
 │
-├── install.bat                 → Script d’installation Windows (pip install + launch)
-├── install.sh                  → Script Linux/Mac (chmod + pip install)
+├── install.bat                 → Windows installation script (pip install + launch)
+├── install.sh                  → Linux/Mac script (chmod + pip install)
 │
 ├── sample_data/
-│   └── sample_data.json        → Base de contenus locale (FAQ, réponses simples)
+│   └── sample_data.json        → Local content database (FAQ, simple answers)
 │
 ├── templates/
-│   ├── index.html              → Interface utilisateur (frontend du chatbot)
-│   └── widget.html             → Nouvelle interface flottante
+│   ├── index.html              → User interface (chatbot frontend)
+│   └── widget.html             → New floating interface
 │
-│── static/
-│   ├── widget.js               → Script d’ouverture/fermeture du widget flottant
-│   └── widget.css              → Style dédié au widget flottant (bouton + mini-fenêtre)
+├── static/
+│   ├── widget.js               → Script to open/close the floating widget
+│   └── widget.css              → Style for the floating widget (button + mini-window)
 │
 ├── logs/
-│   └── errors.log              → Se crée automatiquement si erreur
+│   └── errors.log              → Automatically created on error
 │
 └── docs/
-    ├── INSTALL.md              → Guide utilisateur complet
-    ├── README_TECHNIQUE.md     → Documentation principale du projet
-    ├── README.md               → Documentation et guides du projet
-    └── CUSTOMISATION.md        → Personnalisation du bot (design, réponses, OpenAI…)
+    ├── README_TECHNIQUE.md     → Technical documentation and internal architecture
+    ├── README.md               → Main project documentation and guides
+    ├── CUSTOMISATION.md        → Bot customization (design, responses, OpenAI…)
+    └── INSTALL.md              → Complete user guide
 ```
 
 
 ---
 
-## Points forts
+## Key Features
 
-- **Compatible o2switch / Passenger (hébergement mutualisé)**  
-- **Aucune base de données requise** (fichier JSON seulement)  
-- **Code lisible, commenté, facilement personnalisable**  
-- **CORS activé : utilisable avec un site web ou une interface front-end**  
-- **Système de logs intégré :** erreurs enregistrées automatiquement dans le dossier `/logs/`
-
----
-
-## Cas d’usage typiques
-
-Ce chatbot est conçu pour :  
-
-- assistants internes de connaissances  
-- automatisation de support ou de documentation  
-- assistants IA auto-hébergés  
-- outils internes nécessitant des réponses contrôlées  
-- sites web intégrant un widget conversationnel
-
-Le système peut fonctionner entièrement hors ligne à partir d’une base de connaissances locale,  
-ou utiliser OpenAI de manière optionnelle lorsque des réponses étendues sont nécessaires.
+- **Compatible with o2switch / Passenger (shared hosting)**  
+- **No database required** (JSON-based operation)  
+- **Readable, well-commented and easily customizable code**  
+- **CORS enabled:** usable with websites or frontend interfaces  
+- **Integrated logging system:** errors automatically recorded in `/logs/`
 
 ---
 
-## Fichiers générés automatiquement
+## Typical Use Cases
 
-Lorsque le chatbot est lancé pour la première fois, certains fichiers sont créés automatiquement :  
+This chatbot is designed for:  
 
-| Fichier           | Rôle                                            |
-|-------------------|-------------------------------------------------|
-| `data.db`         | Base SQLite enregistrant les conversations (si `ENABLE_PERSISTENCE=true`) |
-| `logs/errors.log` | Créé uniquement en cas d’erreur serveur |
-| `.env`            | À créer à partir de `.env.example` pour activer OpenAI |
+- internal knowledge assistants  
+- support or documentation automation  
+- self-hosted AI assistants  
+- internal tools requiring controlled responses  
+- websites embedding a chatbot widget
 
----
-
-## Modes de fonctionnement
-
-| Mode         | Description                                              | Nécessite une clé OpenAI |
-|--------------|----------------------------------------------------------|---------------------------|
-| **Local JSON** (par défaut) | Réponses générées depuis la base locale | Non |
-| **OpenAI GPT (optionnel)**  | Utilisation de l’API OpenAI si une clé est fournie | Oui |
-
-Le choix se fait automatiquement selon la présence de la variable `OPENAI_API_KEY` dans `.env`.  
-Aucune consommation de tokens si aucune clé n'est renseignée.
+The system can operate fully offline using a local knowledge base,  
+or optionally use OpenAI when extended responses are required.
 
 ---
 
-## Journaux d’erreurs (Logs)
+## Automatically Generated Files
 
-Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur Flask :
+When the chatbot is launched for the first time, some files are created automatically:  
 
-- création automatique du fichier `logs/errors.log` en cas d’erreur
-- génération automatique du dossier `logs/` si nécessaire
-- enregistrement de la date, du message et de la trace complète (`traceback`)
-
-Ce système fonctionne :
-
-- en mode local  
-- avec ou sans OpenAI  
-- en production (Passenger / hébergement mutualisé)
+| File              | Purpose |
+|-------------------|---------|
+| `data.db`         | SQLite database storing conversations (if `ENABLE_PERSISTENCE=true`) |
+| `logs/errors.log` | Created only when a server error occurs |
+| `.env`            | Must be created from `.env.example` to enable OpenAI |
 
 ---
 
-**Palks Studio — Version 2.0 (Édition Avancée)**  
-Compatible avec Python 3.12+ et Flask 3.0+
+## Operating Modes
 
-© Palks Studio — voir LICENSE.md  
+| Mode | Description | Requires OpenAI Key |
+|------|-------------|---------------------|
+| **Local JSON** (default) | Responses generated from the local knowledge base | No |
+| **OpenAI GPT (optional)** | Uses OpenAI API when a key is provided | Yes |
+
+The mode is automatically selected depending on the presence of the `OPENAI_API_KEY` variable in `.env`.  
+No tokens are consumed if no key is provided.
+
+---
+
+## Error Logs
+
+The `logs/` directory automatically records Flask server errors:  
+
+- automatic creation of `logs/errors.log` when an error occurs  
+- automatic creation of the `logs/` directory if missing  
+- recording of date, error message and full traceback
+
+This system works:  
+
+- in local mode  
+- with or without OpenAI  
+- in production (Passenger / shared hosting)
+
+---
+
+**Palks Studio — Version 2.0 (Advanced Edition)**  
+Compatible with Python 3.12+ and Flask 3.0+
+
+© Palks Studio — see LICENSE.md  
 - https://palks-studio.com
